@@ -118,7 +118,7 @@ description: Document Host Server [https://dochost.looney.gq]
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
- # logo: /logo.png
+ logo: /logo.png
 
   # This is the description that is shown
   # in the footer and meta tags.
