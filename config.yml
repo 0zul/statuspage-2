@@ -76,27 +76,12 @@ params:
   # For help, see the wiki:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
-    -
-      name: Gateway
-    -
-      name: API
-      description: The guts of the application.
-    -
-      name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
--
-name: Main Website
-description: Main website. [https://looney.gq]
--
-name: RadioBot
--
-name: RadioBot Website
--
-name: Discord Bot Console
-description: Discord Bot Status [https://dbotconsole.looney.gq]
--
-name: Document Host
-description: Document Host Server [https://dochost.looney.gq]
+  - name: Gateway
+  - name: API
+    description: The guts of the application.
+  - name: Media Proxy
+    description: This is the service responsible for serving images, audio, and video. It is reliant on Fastly.
+    partial: custom/metrics
   # What header design should we use?
   #
   # Default: true
